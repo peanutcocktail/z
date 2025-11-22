@@ -7,8 +7,8 @@ module.exports = {
     method: "app.launch",
     params: {
       install: "https://zed.dev",
-      message: "zed .",
-      path: "{{args.cwd}}",
+      app: "zed",
+      args: ["{{args.cwd}}"]
     }
   }]
 }
